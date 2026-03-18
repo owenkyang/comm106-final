@@ -131,6 +131,7 @@ body {
 .essay-byline {
   font-family: var(--sans);
   font-size: 13px;
+  font-weight: 700;
   color: var(--muted);
   margin-bottom: 32px;
   letter-spacing: .04em;
