@@ -130,10 +130,11 @@ body {
 
 .essay-byline {
   font-family: var(--sans);
-  font-size: .8rem;
+  font-size: 13px;
   color: var(--muted);
   margin-bottom: 32px;
   letter-spacing: .04em;
+  line-height: 1.5;
 }
 
 .essay h2 {
