@@ -189,6 +189,89 @@ body {
   transition: width 2s cubic-bezier(.22,.61,.36,1) .5s;
 }
 
+/* ── Acemoglu visualization ── */
+.viz-box {
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--accent);
+  background: #f8f8fb;
+  padding: 24px 24px 18px;
+  margin: 28px 0;
+}
+
+.viz-label {
+  font-family: var(--sans);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+.viz-stat-row {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.viz-big-number {
+  font-family: var(--sans);
+  font-size: clamp(3rem, 10vw, 5.5rem);
+  font-weight: 900;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.viz-big-pct {
+  font-family: var(--sans);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 900;
+  color: var(--accent);
+}
+
+.viz-context {
+  font-family: var(--sans);
+  font-size: .8rem;
+  color: var(--muted);
+  margin-left: 8px;
+}
+
+.viz-track-wrap { margin-bottom: 10px; }
+
+.viz-track {
+  height: 14px;
+  background: var(--rule);
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 4px;
+}
+
+.viz-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 7px;
+  width: 0%;
+  transition: width 2s cubic-bezier(.22,.61,.36,1) .3s;
+}
+
+.viz-track-ends {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--sans);
+  font-size: .7rem;
+  color: var(--muted);
+}
+
+.viz-source {
+  font-family: var(--sans);
+  font-size: .72rem;
+  color: var(--muted);
+  margin-top: 12px;
+  border-top: 1px solid var(--rule);
+  padding-top: 10px;
+}
+
 /* ── Citation box ── */
 .citation-box {
   border-left: 4px solid var(--rule);
